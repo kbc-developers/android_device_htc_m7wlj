@@ -43,19 +43,19 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 
-# cat /proc/emmc:
-# dev: size erasesize name
+# cat /proc/emmc
+# dev:        size     erasesize name
 # mmcblk0p19: 000ffa00 00000200 "misc"
-# mmcblk0p36: 00fffe00 00000200 "recovery"
-# mmcblk0p35: 01000000 00000200 "boot"
-# mmcblk0p37: 73fffc00 00000200 "system"
+# mmcblk0p37: 00fffe00 00000200 "recovery"
+# mmcblk0p36: 01000000 00000200 "boot"
+# mmcblk0p38: 8bfffc00 00000200 "system"
 # mmcblk0p26: 00140200 00000200 "local"
-# mmcblk0p38: 27fffe00 00000200 "cache"
-# mmcblk0p39: 680000000 00000200 "userdata"
+# mmcblk0p39: 17fffe00 00000200 "cache"
+# mmcblk0p40: 678000000 00000200 "userdata"
 # mmcblk0p22: 01400000 00000200 "devlog"
 # mmcblk0p24: 00040000 00000200 "pdata"
 # mmcblk0p27: 00010000 00000200 "extra"
-# mmcblk0p33: 04b00200 00000200 "radio"
+# mmcblk0p34: 04b00200 00000200 "radio"
 # mmcblk0p16: 03c00400 00000200 "adsp"
 # mmcblk0p15: 00100000 00000200 "dsps"
 # mmcblk0p17: 007ffa00 00000200 "radio_config"
@@ -65,9 +65,10 @@ BOARD_PROVIDES_LIBRIL := true
 # mmcblk0p30: 01900000 00000200 "carrier"
 # mmcblk0p28: 00100000 00000200 "cdma_record"
 # mmcblk0p18: 02000000 00000200 "reserve_1"
-# mmcblk0p32: 034ffa00 00000200 "reserve_2"
-# mmcblk0p34: 05fffc00 00000200 "reserve_3"
-# mmcblk0p31: 04729a00 00000200 "reserve"
+# mmcblk0p33: 034ffa00 00000200 "reserve_2"
+# mmcblk0p35: 05fffc00 00000200 "reserve_3"
+# mmcblk0p31: 01400000 00000200 "nfc_record"
+# mmcblk0p32: 03329800 00000200 "reserve"
 
 # inherit from the proprietary version
 -include vendor/htc/m7wlj/BoardConfigVendor.mk
