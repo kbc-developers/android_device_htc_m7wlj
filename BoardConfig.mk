@@ -28,10 +28,10 @@
 -include device/htc/m7-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := m7wls,m7spr
+TARGET_OTA_ASSERT_DEVICE := m7wlj
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := m7wls
+TARGET_BOOTLOADER_BOARD_NAME := m7wlj
 
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
@@ -70,4 +70,4 @@ BOARD_PROVIDES_LIBRIL := true
 # mmcblk0p31: 04729a00 00000200 "reserve"
 
 # inherit from the proprietary version
--include vendor/htc/m7spr/BoardConfigVendor.mk
+-include vendor/htc/m7wlj/BoardConfigVendor.mk

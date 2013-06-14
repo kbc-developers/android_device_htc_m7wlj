@@ -15,10 +15,10 @@
 #
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/htc/m7spr/m7spr-vendor.mk)
+$(call inherit-product-if-exists, vendor/htc/m7wlj/m7wlj-vendor.mk)
 
 # overlays
-DEVICE_PACKAGE_OVERLAYS += device/htc/m7spr/overlay
+DEVICE_PACKAGE_OVERLAYS += device/htc/m7wlj/overlay
 
 # common overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/m7-common/overlay-cdma
@@ -27,7 +27,7 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/m7-common/overlay-cdma
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.ril_class=HTCQualcommRIL \
     ro.com.google.clientidbase=android-sprint-us \
-    ro.carrier=Sprint
+    ro.carrier=KDDI
 
 # Inherit from m7-common
 $(call inherit-product, device/htc/m7-common/m7-common.mk)
