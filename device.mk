@@ -26,7 +26,7 @@ DEVICE_PACKAGE_OVERLAYS += device/htc/m7-common/overlay-cdma
 # Sprint properties
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.ril_class=HTCQualcommRIL \
-    ro.com.google.clientidbase=android-sprint-us \
+    ro.com.google.clientidbase=android-kddi-jp \
     ro.carrier=KDDI
 
 # Inherit from m7-common
