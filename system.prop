@@ -64,14 +64,10 @@ gsm.operator.alpha=KDDI
 gsm.operator.numeric=44054
 gsm.operator.iso-country=jp
 ro.telephony.default_network=8
+telephony.lteOnCdmaDevice=1
 telephony.sms.pseudo_multipart=1
 persist.radio.snapshot_enabled=1
 persist.radio.snapshot_timer=22
 persist.eons.enabled=false
-# For CDMA
-#telephony.lteOnCdmaDevice=1
-#telephony.rilV7NeedCDMALTEPhone=true
-#ro.telephony.ril.v3=forceCdmaLteNetworkType
-# For GSM/WCDMA
-telephony.lteOnGsmDevice=1
-ro.telephony.ril.v3=subscriptionFromSource,skipCdmaSubcription
+telephony.rilV7NeedCDMALTEPhone=true
+ro.telephony.ril.v3=forceCdmaLteNetworkType
