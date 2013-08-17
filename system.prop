@@ -71,7 +71,7 @@ persist.eons.enabled=false
 ## For CDMA
 telephony.lteOnCdmaDevice=1
 telephony.rilV7NeedCDMALTEPhone=true
-ro.telephony.ril_class=HTCCDMAQualcommRIL
+ro.telephony.ril_class=HTCQualcommRIL
 ro.telephony.ril.v3=forceCdmaLteNetworkType
 ## For GSM/WCDMA
 #telephony.lteOnGsmDevice=1
