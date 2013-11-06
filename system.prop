@@ -68,7 +68,6 @@ telephony.sms.pseudo_multipart=1
 persist.radio.snapshot_enabled=1
 persist.radio.snapshot_timer=22
 persist.eons.enabled=false
-ro.telephony.ril_class=HTCQualcommRIL
 ## For CDMA
 telephony.lteOnCdmaDevice=1
 ro.telephony.ril_class=HTCQualcommM7CDMARIL
