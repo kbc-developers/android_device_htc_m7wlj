@@ -70,7 +70,7 @@ persist.radio.snapshot_timer=22
 persist.eons.enabled=false
 ## For CDMA
 telephony.lteOnCdmaDevice=1
-ro.telephony.ril_class=HTCQualcommM7CDMARIL
+ro.telephony.ril_class=HTCQualcommRIL
 ro.telephony.ril.v3=forceCdmaLteNetworkType
 ## For GSM/WCDMA
 #telephony.lteOnGsmDevice=1
