@@ -63,6 +63,7 @@ gsm.sim.operator.iso-country=jp
 gsm.operator.alpha=KDDI
 gsm.operator.numeric=44054
 gsm.operator.iso-country=jp
+ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=8
 telephony.sms.pseudo_multipart=1
 persist.radio.snapshot_enabled=1
