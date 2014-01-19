@@ -42,6 +42,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 # RIL
 BOARD_PROVIDES_LIBRIL := true
+COMMON_GLOBAL_CFLAGS += -DNEW_LIBRIL_HTC
 
 # cat /proc/emmc
 # dev:        size     erasesize name
