@@ -28,10 +28,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from m7wlj device
 $(call inherit-product, device/htc/m7wlj/device.mk)
 
-# OneSeg
-PRODUCT_PACKAGES += \
-    KDDI_OneSeg
-
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_m7wlj
 PRODUCT_DEVICE := m7wlj
