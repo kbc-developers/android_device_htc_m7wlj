@@ -39,6 +39,7 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.get_imsi_from_sim=true
 ro.telephony.default_network=10
 ro.telephony.ril_class=HTCQualcommRIL
+telephony.lteOnCdmaDevice=1
 
 # RIL - Proprietary lib properties
 persist.radio.add_power_save=1
